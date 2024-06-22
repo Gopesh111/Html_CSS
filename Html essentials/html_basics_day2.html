@@ -1,0 +1,69 @@
+<html>
+    <body>
+        <!--links,url-->
+        <!--anchor hypertext reference-->
+        <a href="html_basics_day1.html">Link</a>
+        <a href="https://www.google.co.in/">Google</a>
+        <!--navigation-->
+        <nav role="navigation">
+        <ul class="navbar" aria-label="main menu">
+            <li><a href="https://chatgpt.com/">Chat</a></li>
+            <li><a href="https://www.flipkart.com/?affid=affsiteplug&affExtParam1=f98efb5fb5e0bbe21a7dc9565eb1b174&affExtParam2=60827">Shop</a></li>
+            <li><a href="https://infyspringboard.onwingspan.com/web/en/login?ref=%2Fpage%2Flex_auth_01398268320967884838">Study</a></li>
+        </ul>
+        </nav>
+        <footer>
+            <li><a href="https://chatgpt.com/">Chat</a></li>
+            <li><a href="https://www.flipkart.com/?affid=affsiteplug&affExtParam1=f98efb5fb5e0bbe21a7dc9565eb1b174&affExtParam2=60827">Shop</a></li>
+        </footer>
+        <!--images-->
+        <img src="OIP (1).jpg">
+        <img src="OIP (1).jpg" alt="dog">
+        <img src="OIP (1).jpg" alt="dog" height="200px" width="200px">
+        <!--image format-->
+        <!--gif:limited color space of 256 colors,can do transparency,can have multiple frames,used for very short movies-->
+        <!--svg(scalable vector graphic):good for logos,icons.it is a vector file.don't use pixels-->
+        <!--jpg:image format for compressing photos,can balance size vs quality-->
+        <!--png:used when images need transparency,good at compression-->
+
+
+        <!--responsive images:it is used when based on internet speed and data which image is better to load-->
+        <img src="OIP (1).jpg" alt="dog" height="200px" width="200px" 
+        srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w,https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 960w">
+
+        <img src="OIP (1).jpg" alt="dog" height="200px" width="200px" 
+        srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w,https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 960w"
+        sizes="(max-width:480px) 240px"
+        >
+        <!--srcset allow you to specify multiple files to be used based on either viewport
+        width or image pixel width.
+        sizes allows list which size image to use at which media query
+        -->
+
+
+        <!--figure and figure caption-->
+<figure>
+    <img src="OIP (1).jpg" alt="dog" height="200px" width="200px">
+    <figcaption>Cute dog</figcaption>
+</figure>
+
+
+<!--audio-->
+<audio controls src="Luke-Bergs-Hangin-On-Palm-Treesmp3(chosic.com).mp3"></audio>
+<audio controls src="Luke-Bergs-Hangin-On-Palm-Treesmp3(chosic.com).mp3" loop autoplay></audio>
+
+<!--video--><!--captions and subtitles...webvtt(web video text tracks)-->
+<video src="3042473-uhd_3840_2160_30fps.mp4" controls height="400" width="400">
+    <track src="Luke-Bergs-Hangin-On-Palm-Treesmp3(chosic.com).mp3.vtt" kind="captions" label="english" srclang="en" default>
+</video>
+<video src="3042473-uhd_3840_2160_30fps.mp4" controls height="400" width="400">
+    <track src="Luke-Bergs-Hangin-On-Palm-Treesmp3(chosic.com).mp3.vtt" kind="subtitles" label="english" srclang="en" default>
+</video>
+
+
+<!--embedding:placing content from one site into the body of a page on another site-->
+<!--for example got to youtube video and on share button there is option of embed-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cL-SrpIug0I?si=LQeUdAJIvTcDlEOd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
+</html>
