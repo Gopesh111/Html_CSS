@@ -1,0 +1,21 @@
+/*p{
+    width:33%;
+    margin-left: 50%;
+    width: 5rem;
+}
+#g{
+    width:33%;
+    margin-left: 50%; 
+    font-size: 5em; 
+    height:100vh;
+}*/
+
+div{
+    width:100px;
+    height:100px;
+    border-color: black;
+    background-color: aqua;
+    border-width: 2px;
+    position:relative;
+    left:100px;
+}
