@@ -1,0 +1,98 @@
+/*flexbox:one dimensional layout method for arranging
+items in rows or columns
+flexbox contains flex  items
+flex container contain two directions or axis
+cross axis and main axis,both are perpendicular to each other
+
+display:flex
+flexbox-direction:it sets how flex items are placed in flex container
+along which axis and direction
+flexbox-direction:row;(default)left to right
+flexbox-direction:row-reverse;
+flexbox-direction:column;
+flexbox-direction:column-reverse;
+
+/*
+justify-content:alignment along main axis
+flex-start,flex-end,centre,space-evenly
+flex-wrap:nowrap/wrap/wrap-reverse
+align-items:alignment along cross axis
+align-content:alignment of space between and around the content
+*/
+
+
+body{
+    background-color: palevioletred;
+}
+/*div{
+    height:50px;
+    width:50px;
+    display: inline-block;
+    border: 2px solid black;
+}*/
+/*
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;
+    
+
+}*/
+/*#box1
+{
+    background-color: aqua;
+    flex-grow: 2;
+} 
+#box2
+{
+    background-color: rgb(255, 0, 119);
+    height:200px;
+}
+#box3
+{
+    background-color: rgb(255, 0, 0);
+}
+#box4
+{
+    background-color: rgb(26, 255, 0);
+    
+}
+#box5
+{
+    background-color: rgb(60, 0, 255);
+    align-self: flex-end;
+}
+/*
+align-self:alignment of individual along cross axis
+flex-grow:how much flex items will grow relative to rest of the flex items
+if space is available
+flex-shrink:how much flex items will shrink relative to rest of the flex items
+if space is available
+*/
+li{
+    background-color: aqua;
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    align-items: row;
+    justify-content: space-evenly;
+}
+ul
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: row;
+}
+/*
+Media queries
+*/
+div{
+    height:50px;
+    height:50px;
+}
