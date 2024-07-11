@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            height:100px;
+            width:100px;
+            background-color: aqua;
+            color: blue;
+            border: 1px solid red;
+        }
+        #box{
+            height:100px;
+            width:100px;
+            background-color: aqua;
+            color: blue;
+            border: 1px solid red;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Inline event handling-->
+   <!--<button onclick="console.log('button was clicked');alert('Hello')">Submit</button>-->
+    <button onclick="console.log('button was clicked two times');alert('Hello')">Submit 2</button>
+    <div onmouseover="console.log('you are inside div');">This is box</div>
+
+    <button id="btn">Hello</button>
+    <div id="box">Hii</div>
+    <button id="mode">Change Mode</button>
+</body>
+<script src="day5.js"></script>
+</html>
